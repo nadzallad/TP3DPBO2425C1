@@ -17,6 +17,13 @@ Saya Nadzalla Diva Asmara Sutedja dengan Nim 2408095 mengerjakan TP3 dalam mata 
 
 //Penjelasan Alur 
 
+1. Mengimpor semua class yabg dibutuhkan dari class yang terpisah kemudian menggunakan #pragma  once untuk mencegah terjadi duplikasi pada saat kompilasi
+2. Membuat Object JadwalTrip yang berisi tanggal mulai, tangggal selesai dan waktu keberangkatan.
+3. Membuat Object Trip yang menentukan jenis trip yang digunakan yaitu alam, kuliner dan sejarah yang tentunya juga mengisi informasi umum dan menambahkan data jadwal yang sebelumnya dibuat.
+4. Menambahkan peserta dari trip dengan no ktp, nama, dan kontak kedalam trip yang sudah dibuat sebelumnya
+5. menampilkan data yang sebelumnya dimasukan pada setiap trip.
+6. Melakukan penambahan peserta kedalam trip yang sebelumnya sudah dibuat kemudian kemabali menampilkan hasilnya
+
 //Dokumentasi
 
 == CPP ==
