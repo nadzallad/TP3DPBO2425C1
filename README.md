@@ -16,6 +16,8 @@ Saya Nadzalla Diva Asmara Sutedja dengan Nim 2408095 mengerjakan TP3 dalam mata 
 
 //Method 
 
+Dalam program jasa trip yang diimplementasikan dalam bahasa C++, Java, dan Python, terdapat sejumlah method utama yang memiliki fungsi serupa dengan perbedaan sintaks sesuai bahasa masing-masing. konstruktor sebagai method khusus untuk inisialisasi objek. Masing-masing kelas seperti Trip, JadwalTrip, dan Peserta, serta kelas turunan seperti TripAlam, TripKuliner, dan TripSejarah, memiliki konstruktor yang bertugas menginisialisasi atribut saat objek dibuat. Method tampilkan_data() di C++ dan Java (serta tampilkan_data() atau tampilkan_data(self) di Python) merupakan method utama yang bertugas menampilkan seluruh informasi sebuah trip, termasuk detail umum seperti ID, nama, harga, lokasi, serta daftar peserta dan jadwal. Method ini didefinisikan dalam kelas induk (Trip) dan dioverride oleh kelas-kelas turunan seperti TripAlam, TripKuliner, dan TripSejarah untuk menambahkan informasi khusus, seperti aktivitas, tingkat kesulitan, makanan khas, tempat sejarah, atau nama pemandu. Method tambah_peserta() (atau tambahPeserta() di Java, tambah_peserta(self, peserta) di Python) digunakan untuk menambahkan peserta ke dalam daftar peserta trip. Setiap kelas JadwalTrip memiliki method tampilkan() yang bertugas menampilkan tanggal dan jam keberangkatan, dan kelas Peserta juga memiliki method tampilkan() untuk menampilkan informasi personal peserta seperti nama, nomor identitas, umur, dan kontak. Ketiga bahasa memanfaatkan pemanggilan method secara berantai, di mana method tampilkan_data() akan memanggil method tampilkan() milik objek jadwal dan setiap peserta.  Struktur pewarisan dan overriding method juga serupa di ketiga bahasa, meskipun Python tidak memerlukan deklarasi eksplisit seperti virtual (C++) atau @Override (Java), karena sifat dinamisnya.
+
 //Penjelasan Alur 
 
 1. Mengimpor semua class yabg dibutuhkan dari class yang terpisah kemudian menggunakan #pragma  once untuk mencegah terjadi duplikasi pada saat kompilasi
@@ -39,6 +41,14 @@ Sesudah :<img width="1149" height="866" alt="Data Sesudah Penambahan png" src="h
 sebelum :<img width="1278" height="711" alt="Data Sebelum penambahan" src="https://github.com/user-attachments/assets/8d44b10d-d3d9-4294-b561-91d45aca6342" />
 
 sesudah :<img width="1168" height="729" alt="Data Sesudah Penambahan" src="https://github.com/user-attachments/assets/546f1b95-e526-4b6b-beea-741504eccdd5" />
+
+== Java == 
+
+sebelum : <img width="1568" height="831" alt="Sebelum Penambahkan Data" src="https://github.com/user-attachments/assets/9458e219-15d7-48ed-98dd-1d7aecbcc7ad" />
+
+Sesudah :  <img width="1399" height="824" alt="Sesudah Penambahkan Data" src="https://github.com/user-attachments/assets/8947b78a-71cd-4f85-a459-bda1ff94a1c2" />
+
+
 
 
 
