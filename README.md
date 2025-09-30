@@ -3,7 +3,8 @@
 Saya Nadzalla Diva Asmara Sutedja dengan Nim 2408095 mengerjakan TP3 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahan-Nya maka saya tidak akan melakukan kecurangan seperti yang telah di spesifikasikan
 
 //Diagram
-<img width="1260" height="619" alt="image" src="https://github.com/user-attachments/assets/fabe1c3c-e7ca-4474-8605-ff821228d142" />
+
+<img width="882" height="482" alt="image" src="https://github.com/user-attachments/assets/fb648a0c-1de3-4d71-9ca6-61178c407592" />
 
 //Penjelasan Desain dan Atribut 
 1. Class trip ini menjadi induk (inharitance) dari class Trip Alam, Trip Sejarah dan Trip Kuliner dikarenakan adanya kesamaan kebutuhan atribut. Pada Class ini memiliki atribut Trip_Id, Nama_Trip , Harga, Destinasi_Utama, Daftar_Peserta, dan Jadwal. Adanya Atribut Jadwal pada class ini menjadikan class ini harus memiliki hubungan dengan class Jadwal Trip untuk dapat lebih jelas mendapatkan data/informasi waktu. Class ini juga memiliki atribit Daftar Peserta sehingga berhubungan aggression dengan class peserta untuk menampilkan daftar peserta pada class Trip.
@@ -20,7 +21,7 @@ Saya Nadzalla Diva Asmara Sutedja dengan Nim 2408095 mengerjakan TP3 dalam mata 
 1. Mengimpor semua class yabg dibutuhkan dari class yang terpisah kemudian menggunakan #pragma  once untuk mencegah terjadi duplikasi pada saat kompilasi
 2. Membuat Object JadwalTrip yang berisi tanggal mulai, tangggal selesai dan waktu keberangkatan.
 3. Membuat Object Trip yang menentukan jenis trip yang digunakan yaitu alam, kuliner dan sejarah yang tentunya juga mengisi informasi umum dan menambahkan data jadwal yang sebelumnya dibuat.
-4. Menambahkan peserta dari trip dengan no ktp, nama, dan kontak kedalam trip yang sudah dibuat sebelumnya
+4. Menambahkan peserta dari trip dengan no ktp, nama, umur dan kontak kedalam trip yang sudah dibuat sebelumnya
 5. menampilkan data yang sebelumnya dimasukan pada setiap trip.
 6. Melakukan penambahan peserta kedalam trip yang sebelumnya sudah dibuat kemudian kemabali menampilkan hasilnya
 
