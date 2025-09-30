@@ -1,4 +1,5 @@
-Saya Nadzalla Diva Asmara Sutedja dengan Nim 2408095 mengerjakan TP3 dalam mata kuliah Algoritma dan Struktur Data untuk keberkahan-Nya maka saya tidak akan melakukan kecurangan seperti yang telah di spesifikasikan
+Saya Nadzalla Diva Asmara Sutedja dengan Nim 2408095 mengerjakan TP3 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahan-Nya maka saya tidak akan melakukan kecurangan seperti yang telah di spesifikasikan
+
 <img width="1260" height="619" alt="image" src="https://github.com/user-attachments/assets/fabe1c3c-e7ca-4474-8605-ff821228d142" />
 
 1.Class trip ini menjadi induk (inharitance) dari class Trip Alam, Trip Sejarah dan Trip Kuliner dikarenakan adanya kesamaan kebutuhan atribut. Pada Class ini memiliki atribut Trip_Id, Nama_Trip , Harga, Destinasi_Utama, Daftar_Peserta, dan Jadwal. Adanya Atribut Jadwal pada class ini menjadikan class ini harus memiliki hubungan dengan class Jadwal Trip untuk dapat lebih jelas mendapatkan data/informasi waktu. Class ini juga memiliki atribit Daftar Peserta sehingga berhubungan aggression dengan class peserta untuk menampilkan daftar peserta pada class Trip.
